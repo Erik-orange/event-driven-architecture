@@ -46,31 +46,31 @@ ___
 
 #### APACHE KAFKA TERMINOLOGY:
 
-`KAFKA` - A distributed streaming system that runs on a cluster of computers.
+* `KAFKA` - A distributed streaming system that runs on a cluster of computers.
 
-`PRODUCER` - An application that sends messages to the Kafka cluster for the broker to record.
+* `PRODUCER` - An application that sends messages to the Kafka cluster for the broker to record.
 
-`CONSUMER` - An application that reads data from the Kafka server recorded by the broker.
+* `CONSUMER` - An application that reads data from the Kafka server recorded by the broker.
 
-`BROKER` - A Kafka server. It acts as a message broker between producers and consumers.
+* `BROKER` - A Kafka server. It acts as a message broker between producers and consumers.
 
-`CLUSTER` - A group of computers sharing workload for a common purpose.
+* `CLUSTER` - A group of computers sharing workload for a common purpose.
 
-`TOPIC` - The unique name for a Kafka stream. A stream is a continuous flow of data or a constant stream of messages.
+* `TOPIC` - The unique name for a Kafka stream. A stream is a continuous flow of data or a constant stream of messages.
 
-`PARTITION` - A part of a greater piece of a message that was broken down and distributed to multiple computers. Cannot be re-partitinoned. Size of partition set by us.
+* `PARTITION` - A part of a greater piece of a message that was broken down and distributed to multiple computers. Cannot be re-partitinoned. Size of partition set by us.
 
-`OFFSET` - A sequence ID given to messages as they arrive in a partition. This is immutable once assigned. No global scope, only local to partition.
+* `OFFSET` - A sequence ID given to messages as they arrive in a partition. This is immutable once assigned. No global scope, only local to partition.
 
-`CONSUMER GROUPS` - A group of consumers acting as a single logical unit.
+* `CONSUMER GROUPS` - A group of consumers acting as a single logical unit.
 
-`STREAM PROCESSORS` - A third-party framework connected to a Kafka cluster for stream processing tasks. Read a constant stream of messages and then after processing the data they can send it back to the cluster or to other systems.
+* `STREAM PROCESSORS` - A third-party framework connected to a Kafka cluster for stream processing tasks. Read a constant stream of messages and then after processing the data they can send it back to the cluster or to other systems.
 
-`CONNECTORS` - Ready to use third-party tools to import data from databases into Kafka or to export data from Kafka into databases.
+* `CONNECTORS` - Ready to use third-party tools to import data from databases into Kafka or to export data from Kafka into databases.
 
-`RECORD` - Consists of a key, a value, and a timestamp.
+* `RECORD` - Consists of a key, a value, and a timestamp.
 
-`librdkafka` - A C library implementation of the Apache Kafka protocol, providing Producer, Consumer and Admin clients. It was designed with message delivery reliability and high performance in mind, current figures exceed 1 million msgs/second for the producer and 3 million msgs/second for the consumer.
+* `librdkafka` - A C library implementation of the Apache Kafka protocol, providing Producer, Consumer and Admin clients. It was designed with message delivery reliability and high performance in mind, current figures exceed 1 million msgs/second for the producer and 3 million msgs/second for the consumer.
 
 
 
