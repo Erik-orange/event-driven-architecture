@@ -44,7 +44,9 @@ Each step consists of a microservice updating a business entity and publishing a
 
 ___
 
-#### APACHE KAFKA TERMINOLOGY:
+#### APACHE KAFKA 
+
+##### TERMINOLOGY:
 
 * `KAFKA` - A distributed streaming system that runs on a cluster of computers.
 
@@ -72,6 +74,12 @@ ___
 
 * `librdkafka` - A C library implementation of the Apache Kafka protocol, providing Producer, Consumer and Admin clients. It was designed with message delivery reliability and high performance in mind, current figures exceed 1 million msgs/second for the producer and 3 million msgs/second for the consumer.
 
+* Apache Kafka is a distributed streaming platform:
 
+  * Kafka is run as a `cluster` on one or more servers that can span multiple datacenters.
+  
+  * The Kafka cluster stores `streams` of `records` in categories called `topics`.
+
+  * Each record consists of a `key`, a `value`, and a `timestamp`.
 
 
