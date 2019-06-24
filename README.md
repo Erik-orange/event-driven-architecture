@@ -56,7 +56,7 @@ ___
 
 * `CLUSTER` - A group of computers sharing workload for a common purpose.
 
-* `TOPIC` - The unique name for a Kafka stream. A stream is a continuous flow of data or a constant stream of messages.
+* `TOPIC` - The unique name for a Kafka stream. A stream is defines as a continuous flow of data or a constant stream of messages.
 
 * `PARTITION` - A part of a greater piece of a message that was broken down and distributed to multiple computers. Cannot be re-partitinoned. Size of partition set by us.
 
